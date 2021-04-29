@@ -35,4 +35,23 @@ $(document).ready(function () {
 			updateCostsAndCartTotal();
 		}, 600);
 	});
+	
+	$('#addProduct').on('submit', function (event) {
+		event.preventDefault();
+		
+		var name = $(this).children('[name=name]').val();
+		var cost = $(this).children('[name=ucost]').val();
+		$('tbody').append(
+		'<tr>' +
+			'<td class="name">' + name + '</td>' +
+			'<td class="ucost">$' + Number(cost).toFixed(2) + '</td>' +
+			'<td class="qty"><input type="number" min="0" value="1" /></td>' +
+			'<td><button class="btn btn-sm remove">remove</button></td>' +
+			'<td class="tcost">$--.--</th>' +
+		'</tr>');
+		
+		updateCostsAndCartTotal();
+		$(this).children('[name=name]').val('');
+		$(this).children('[name=ucost]').val('');
+	});
 });
