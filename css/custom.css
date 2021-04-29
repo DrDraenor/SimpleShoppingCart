@@ -2,6 +2,10 @@ td button, td.qty input, #addProduct button {
 	width: 100px;
 }
 
+.tcost {
+	font-weight: bold;
+}
+
 #addProduct input {
 	width: 160px;
 }
