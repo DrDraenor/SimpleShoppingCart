@@ -1,18 +1,13 @@
-td.qty {
-	width: 150px;
-}
-
-td button, td.qty input {
+td button, td.qty input, #addProduct button {
 	width: 100px;
 }
 
 #addProduct input {
-	width: 180px;
+	width: 160px;
 }
 
 #addProduct button {
-	width: 100px;
-	margin-left: 25px;
+	margin-left: 20px;
 }
 
 button:hover {
