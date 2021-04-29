@@ -1,0 +1,7 @@
+#addProduct input {
+	width: 160px;
+}
+
+button:hover {
+	border-color: #ccc;
+}
