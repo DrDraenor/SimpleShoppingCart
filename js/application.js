@@ -45,7 +45,7 @@ $(document).ready(function () {
 		'<tr>' +
 			'<td class="name">' + name + '</td>' +
 			'<td class="ucost">$' + Number(cost).toFixed(2) + '</td>' +
-			'<td class="qty"><input type="number" min="0" value="1" /></td>' +
+			'<td class="qty"><input type="number" min="0" value="0" /></td>' +
 			'<td class="tcost">$--.--</th>' +
 			'<td><button class="btn btn-sm remove">remove</button></td>' +
 		'</tr>');

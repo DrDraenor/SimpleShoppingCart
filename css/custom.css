@@ -6,11 +6,6 @@ td button, td.qty input {
 	width: 100px;
 }
 
-button:hover {
-	border-color: #ccc;
-	background-color: #ddd;
-}
-
 #addProduct input {
 	width: 180px;
 }
@@ -18,4 +13,9 @@ button:hover {
 #addProduct button {
 	width: 100px;
 	margin-left: 25px;
+}
+
+button:hover {
+	border-color: #ccc;
+	background-color: #ddd;
 }
